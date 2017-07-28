@@ -23,7 +23,10 @@ module.exports = {
                         sass: ExtractTextPlugin.extract({
                             use: 'css-loader!sass-loader?indentedSyntax',
                             fallback: 'vue-style-loader'
-                        })
+                        }),
+                        // ts: ExtractTextPlugin.extract({
+                        //     use: 'tslint-loader',
+                        // }),
                     }
                 }
             },
