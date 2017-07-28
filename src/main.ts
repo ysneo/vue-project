@@ -1,18 +1,13 @@
 import Vue, { ComponentOptions } from 'vue'
 import VueRouter, { RouterOptions } from 'vue-router'
+import App from './components/app.vue'
 import routers from './router'
-
 
 Vue.use(VueRouter)
 
-const RouterConfig: RouterOptions = {
-    routes: routers
-}
-
-const router = new VueRouter(RouterConfig)
+const router = new VueRouter(routers)
 
 new Vue({
-    el: '#app',
-    router,
-    render: h => h()
-} as ComponentOptions<Vue>)
+    // router,
+    render: h => h(App)
+} as ComponentOptions<Vue>).$mount('#app')
