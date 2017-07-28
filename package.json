@@ -6,9 +6,11 @@
   "author": "ysneo <jinchn728@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "dev": "webpack",
+    "build": "cross-env NODE_ENV=production webpack"
   },
   "dependencies": {
+    "cross-env": "^5.0.1",
     "iview": "^2.0.0",
     "lodash": "^4.17.4",
     "vue": "^2.4.2",
