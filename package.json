@@ -1,0 +1,8 @@
+{
+  "name": "vue-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ysneo/vue-project.git",
+  "author": "ysneo <jinchn728@gmail.com>",
+  "license": "MIT"
+}
