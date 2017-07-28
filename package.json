@@ -4,5 +4,16 @@
   "main": "index.js",
   "repository": "https://github.com/ysneo/vue-project.git",
   "author": "ysneo <jinchn728@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "iview": "^2.0.0",
+    "vue": "^2.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "typescript": "^2.4.2",
+    "webpack": "^3.4.1"
+  }
 }
